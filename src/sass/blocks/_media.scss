@@ -57,6 +57,53 @@
 	}
 }
 
+.consultation 
+{
+	padding: 80px 0 88px 0;
+	.container 
+	{
+		max-width: 750px;
+	}
+	&__descr 
+	{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.title 
+	{
+		&_left
+		{
+			font-size: 34px;
+			line-height: 50px;
+		}
+	}
+
+	.feed-form 
+	{
+	margin-top: 34px;
+	width: 280px;
+		input 
+		{
+			height: 45px;
+			margin-bottom: 12px;
+			padding: 0 17px;
+			font-size: 14px;
+			&:nth-child(3) 
+			{
+				margin-bottom: 16px;
+			}
+			.button 
+			{
+				&_submit
+				{
+					height: 52px;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+
 }
 
 @media(max-width: 991px) 
@@ -83,7 +130,6 @@
 			&_main
 			{
 				width: 275px;
-				height: 45px;
 				font-size: 15px;
 			}
 		}
@@ -118,6 +164,47 @@
 		font-size: 15px;
 	}
 }
+
+.consultation 
+{
+	padding: 75px 0 82px 0;
+	.container 
+	{
+		max-width: 700px;
+	}
+	&__descr 
+	{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.title 
+	{
+		&_left
+		{
+			font-size: 32px;
+			line-height: 45px;
+		}
+	}
+
+	.feed-form 
+	{
+	margin-top: 32px;
+	width: 270px;
+		input 
+		{
+			font-size: 12px;
+		}
+		.button 
+		{
+			&_submit
+			{
+				height: 52px;
+				font-size: 14px;
+			}
+		}
+	}
+}
+
 }
 
 @media(max-width: 767px) {
@@ -214,6 +301,54 @@
 	&__head
 	{
 		font-size: 14px;
+	}
+}
+
+.consultation 
+{
+	padding: 70px 0 78px 20px;
+	.container 
+	{
+		max-width: 650px;
+	}
+	&__descr 
+	{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.title 
+	{
+		&_left
+		{
+			font-size: 28px;
+			line-height: 35px;
+		}
+	}
+
+	.feed-form 
+	{
+	margin-top: 28px;
+	width: 280px;
+		input 
+		{
+			height: 40px;
+			margin-bottom: 10px;
+			padding: 0 14px;
+			font-size: 12px;
+			&:nth-child(3) 
+			{
+				margin-bottom: 13px;
+			}
+		}
+		.button 
+		{
+			&_submit
+			{
+				height: 48px;
+				font-size: 14px;
+				line-height: 20px;
+			}
+		}
 	}
 }
 
@@ -335,6 +470,57 @@
 	}
 }
 
+.consultation 
+{
+	padding: 60px 0 68px 0;
+	.container 
+	{
+		max-width: 550px;
+	}
+	&__descr 
+	{
+		font-size: 14px;
+		line-height: 20px;
+		text-align: center;
+		margin-top: 15px;
+	}
+	.title 
+	{
+		&_left
+		{
+			text-align: center;
+			font-size: 26px;
+			line-height: 30px;
+		}
+	}
+
+	.feed-form 
+	{
+	margin: 0 auto;
+	margin-top: 24px;
+	width: 270px;
+		input 
+		{
+			height: 35px;
+			padding: 0 12px;
+			margin-bottom: 18px;
+			&:nth-child(3) 
+			{
+				margin-bottom: 21px;
+			}
+		}
+		.button 
+		{
+			
+			&_submit
+			{
+				height: 42px;
+				line-height: 20px;
+			}
+		}
+	}
+}
+
 }
 
 
@@ -439,6 +625,50 @@
 		line-height: 15px;
 	
 	
+	}
+}
+.consultation 
+{
+	padding: 40px 0 48px 0;
+	.container 
+	{
+		max-width: 350px;
+	}
+	&__descr 
+	{
+		line-height: 15px;
+	}
+	.title 
+	{
+		&_left
+		{
+			font-size: 22px;
+			line-height: 20px;
+		}
+	}
+
+	.feed-form 
+	{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 200px;
+		input 
+		{
+			margin-bottom: 20px;
+			&:nth-child(3) 
+			{
+				margin-bottom: 24px;
+			}
+		}
+		.button 
+		{	
+			&_submit
+			{
+				height: 42px;
+				line-height: 20px;
+				font-size: 12px;
+			}
+		}
 	}
 }
 
